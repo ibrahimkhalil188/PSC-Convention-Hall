@@ -33,10 +33,31 @@ i{
     padding-right: 8px;
     
 }
+/* css for toast */
 .offer{
     position: relative;
-    top:-600px;
 }
+/* css for toast */
+.event-img{
+    position: relative;
+}
+
+.next-event{
+    position: absolute;
+    top:50px;
+    left: 35px;
+    display: none;
+}
+
+.event-img:hover .next-event{
+    display: block;
+}
+.event-img:hover img{
+    opacity:0.3;
+}
+
+
+
     @media only screen and (max-width:992px) {
         .hot-plan{
             position: relative;
@@ -49,3 +70,4 @@ i{
             left: 250px;
         }
     }
+   
